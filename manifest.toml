@@ -42,11 +42,13 @@ ram.runtime = "50M"
 
     [install.admin]
     type = "user"
-    
+
 
 [resources]
 
     [resources.system_user]
+
+    [resources.install_dir]
 
     [resources.permissions]
     main.url = "/"
