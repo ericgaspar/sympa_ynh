@@ -9,7 +9,7 @@
 source _common.sh
 source /usr/share/yunohost/helpers
 
-mail=$(ynh_user_get_info --username=$admin --key="mail")
+email=$(ynh_user_get_info --username=$admin --key="mail")
 
 #=================================================
 # SYSTEM CONFIGURATION
