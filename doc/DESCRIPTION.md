@@ -1,1 +1,1 @@
-This is a dummy description of this app features
+Sympa is an electronic mailing list manager. It is used to automate list management functions such as subscription, moderation and management of archives. Sympa also manages sending of messages to the lists, and makes it possible to reduce the load on the system. Provided that you have enough memory on your system, Sympa is especially well adapted for big lists. For a list with 20 000 subscribers, it takes 5 minutes to send a message to 90% of subscribers, of course considering that the network is available.

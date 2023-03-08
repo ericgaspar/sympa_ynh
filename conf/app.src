@@ -1,5 +1,5 @@
-SOURCE_URL=url of app's source
-SOURCE_SUM=sha256 checksum
+SOURCE_URL=https://github.com/sympa-community/sympa/releases/download/6.2.70/sympa-6.2.70.tar.gz
+SOURCE_SUM=e392de5f88a0b2877be1598f287f6d8a56f66cc7ba04b0480a69545e6f675b45
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
