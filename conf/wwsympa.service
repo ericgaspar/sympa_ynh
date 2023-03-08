@@ -1,13 +1,15 @@
 [Unit]
-Description=Sympa
-After=network.target
+Description = WWSympa - Web interface for Sympa mailing list manager (service)
+After = syslog.target
 
 [Service]
-Type=simple
 User=__APP__
 Group=__APP__
-ExecStart=/usr/lib/cgi-bin/sympa/wwsympa-wrapper.fcgi
-StandardInput=socket
+ExecStart = /usr/lib/cgi-bin/sympa/wwsympa-wrapper.fcgi
+StandardOutput = null
+StandardInput = socket
+StandardError = null
+Restart=on-failure
 
 [Install]
-WantedBy=multi-user.target
+WantedBy = multi-user.target
